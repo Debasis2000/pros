@@ -1,23 +1,21 @@
-# pros
 <!DOCTYPE html>
 <html>
   <head>
     <title>My Website</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-      </nav>
-    </header>
-    <main>
-      <h1>Welcome to My Website</h1>
-      <p>This is a sample webpage.</p>
-    </main>
-    <footer>
-      <p>Copyright ©2022 My Website</p>
-    </footer>
+    <script>
+      // Create a new element
+      var newHeading = document.createElement("h1");
+
+      // Create a text node
+      var headingText = document.createTextNode("Welcome to My Website");
+
+      // Append the text node to the heading element
+      newHeading.appendChild(headingText);
+
+      // Append the heading element to the body
+      document.body.appendChild(newHeading);
+    </script>
   </body>
 </html>
